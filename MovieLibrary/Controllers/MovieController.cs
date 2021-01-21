@@ -20,7 +20,7 @@ namespace MovieLibrary.Controllers
     public class MovieController
     {
         static HttpClient client = new HttpClient();
-
+         
         [HttpGet]
         [Route("/toplist")]
         public IEnumerable<string> Toplist(bool asc = true)
