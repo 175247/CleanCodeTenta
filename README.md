@@ -1,6 +1,7 @@
 - Vad du valt att testa och varför?
 Tyckte inte att tiden riktigt räckte till så testade inte allt. Testade därför den endpoint där man skulle hämta en specifik film pga index m.m.
 Testade också att listan sorterades, och hämtade topplistan sorterad, för att köra igenom det mesta.
+Hade velat testa mer men det känns som att TDD tar lite längre tid, vilket var till nackdel denna labben.
 
 - Vilket/vilka designmönster har du valt, varför? Hade det gått att göra på ett annat sätt?
 Jag använde adapter då jag tidigt märkte att objekten var olika, men behövde se likadana ut för att sortera bl.a. Jag har inte jobbat med adapter förut.
