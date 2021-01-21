@@ -78,36 +78,5 @@ namespace MovieLibraryTests
             // Assert
             CollectionAssert.AreEqual(expected, actual);
         }
-
-        //[TestMethod]
-        //public void joining_two_arrays_should_exclude_duplicates()
-        //{
-        //    // Arrange
-        //    var listOne = new List<Movie>
-        //    {
-        //        new Movie { Title = "CleanCode", Id = "1", Rated = 100 },
-        //        new Movie { Title = "Kanelbullar", Id = "2", Rated = 90 },
-        //        new Movie { Title = "Gifflar", Id = "3", Rated = 90 }
-        //    };
-        //
-        //    var listTwo = new List<Movie>
-        //    {
-        //        new Movie { Title = "CleanCode", Id = "1", Rated = 100 },
-        //        new Movie { Title = "Gifflar", Id = "3", Rated = 90 }
-        //    };
-        //
-        //    var expected = new List<Movie>
-        //    {
-        //        new Movie { Title = "CleanCode", Id = "1", Rated = 100 },
-        //        new Movie { Title = "Kanelbullar", Id = "2", Rated = 90 },
-        //        new Movie { Title = "Gifflar", Id = "3", Rated = 90 }
-        //    };
-        //
-        //    // Act
-        //    var actual = _sut.JoinLists(listTwo, listOne);
-        //
-        //    // Assert
-        //    CollectionAssert.AreEqual(expected, actual);
-        //}
     }
 }
