@@ -1,3 +1,7 @@
+Tillägg 13:13:
+Gjord av Simon Tillström
+
+
 - Vad du valt att testa och varför?
 Tyckte inte att tiden riktigt räckte till så testade inte allt. Testade därför den endpoint där man skulle hämta en specifik film pga index m.m.
 Testade också att listan sorterades, och hämtade topplistan sorterad, för att köra igenom det mesta.
