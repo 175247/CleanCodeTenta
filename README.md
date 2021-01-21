@@ -11,3 +11,4 @@ Hade säkert gått att göra på andra sätt, men tiden var/är i skrivande stun
 Jag hade velat optimera koden mer genom att bryta ut det till olika services och separera concerns. Det är inte bra när allt ligger i controllern. Jag fokuserade dock mer på att få in funktionaliteten och få det att fungera då tiden var knapp.
 Koden är ändå på en rimlig nivå för tiden som angavs (för mig), men hade helt klart kunnat förbättras ytterligare, utan att göra det överkomplicerat.
 Det är lite repetition där man skickar sin request och deserialiserar till objekt, men hade inte tid att göra det på ett bättre sätt med fler olika metoder.
+Utöver det så missade jag att inkludera felmeddelanden om något gick fel, och convention för Api följdes inte. Lite stressigt.
